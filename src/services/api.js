@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://kasirpintar-api-git-main-hafizh-fakhris-projects.vercel.app/api',
+  baseURL: 'https://kasirpintar-api.vercel.app/api',
 });
 
 api.interceptors.request.use(
