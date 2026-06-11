@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://kasirpintar-api.vercel.app',
+  baseURL: 'https://kasirpintar-api.vercel.app/',
 });
 
 api.interceptors.request.use(
